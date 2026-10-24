@@ -1,11 +1,12 @@
-<script setup></script>
+<script setup>
+import CompHeader from './components/CompHeader.vue';
 
+</script>
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <CompHeader />
+  <div class="w-300 bg-green-500 h-50">
+
+  </div>
 </template>
 
 <style scoped></style>
