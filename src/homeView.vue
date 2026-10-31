@@ -81,10 +81,20 @@
                 </div>
             </div>
         </div>
+        <div class="p-4">
+            <CalendarHeatmap :end-date="new Date()" :values="heatmapData" />
+        </div>
     </div>
+
 </template>
 
 <script setup lang='ts'>
+import { ref } from 'vue';
 import CompHeader from './components/CompHeader.vue';
-
+const heatmapData = ref([
+    { date: '2026-01-15', count: 5 },
+    { date: '2026-01-16', count: 12 },
+    { date: '2026-02-01', count: 2 },
+    { date: '2026-10-25', count: 20 },
+])
 </script>
