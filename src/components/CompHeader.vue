@@ -3,7 +3,7 @@
         <!-- Ссылки  -->
         <p>Ritm</p>
         <div>
-            <p>Сегодня</p>
+            <router-link to="/logout">Вход</router-link>
         </div>
         <div>
             <p>Привычки</p>
