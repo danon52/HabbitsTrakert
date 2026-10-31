@@ -1,8 +1,9 @@
 <template>
-    <header class="p-10">
-        <div class="flex">
+    <header class="p-10 flex ">
+
+        <div class="flex ">
             <p class="w-10 h-10 text-xl bg-[#5C4C72] px-3.5 py-2 rounded-2xl">P</p>
-            <div class="flex">
+            <div class="flex ">
                 <p class="text-2xl mt-1 ml-2">Ритм</p>
                 <div class="flex mt-1 ">
                     <router-link to="">
@@ -22,7 +23,14 @@
                     </router-link>
                 </div>
             </div>
-        </div>
 
+        </div>
+        <div class=" flex  ml-90  ">
+            <p class="  w-4 h-4 rounded-full bg-amber-300 mt-2"></p>
+            <p class="text-2xl ml-5">240</p>
+            <div>
+                <p class="w-10 h-10 bg-[#5C4C72] text-xl px-3 py-1 ml-5 rounded-full">Д</p>
+            </div>
+        </div>
     </header>
 </template>
