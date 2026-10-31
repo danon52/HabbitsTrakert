@@ -1,14 +1,12 @@
 <script setup>
+import CompHeader from './components/CompHeader.vue';
+
 
 
 </script>
 <template>
-  <!-- <CompHeader /> -->
-  <!-- <div class="w-300 bg-green-500 h-50"> -->
-
-
   <router-view></router-view>
-
+  <CompHeader />
 </template>
 
 <style scoped></style>

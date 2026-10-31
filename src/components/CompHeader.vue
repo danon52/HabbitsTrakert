@@ -1,38 +1,28 @@
 <template>
-    <header class="flex justify-between max-w-300 mt-5 ml-20 text-2xl">
-        <!-- Ссылки  -->
-        <p>Ritm</p>
-        <div>
-            <router-link to="/logout">Вход</router-link>
-        </div>
-        <div>
-            <p>Привычки</p>
-        </div>
-        <div>
-            <p>Статистика</p>
-        </div>
-        <div>
-            <p>Календарь</p>
-        </div>
-        <div>
-            <p>Награды</p>
-        </div>
-        <div>
-            <p>Прфиль</p>
-        </div>
-        <div>
-            <p>Настройки</p>
-        </div>
-        <div class="flex justify-end">
-            <div>
-                <div class="w-20 h-8 bg-fuchsia-900 mr-10 rounded-4xl ">огонек</div>
+    <header class="p-10">
+        <div class="flex">
+            <p class="w-10 h-10 text-xl bg-[#5C4C72] px-3.5 py-2 rounded-2xl">P</p>
+            <div class="flex">
+                <p class="text-2xl mt-1 ml-2">Ритм</p>
+                <div class="flex mt-1 ">
+                    <router-link to="">
+                        <p class="text-2xl ml-5 text-[#6F6860]">Сегодня</p>
+                    </router-link> <router-link to="">
+                        <p class="text-2xl ml-5 text-[#6F6860]">Привычки</p>
+                    </router-link> <router-link to="">
+                        <p class="text-2xl ml-5 text-[#6F6860]">Статистика</p>
+                    </router-link> <router-link to="">
+                        <p class="text-2xl ml-5 text-[#6F6860]">Календарь</p>
+                    </router-link> <router-link to="">
+                        <p class="text-2xl ml-5 text-[#6F6860]">Награды</p>
+                    </router-link> <router-link to="">
+                        <p class="text-2xl ml-5 text-[#6F6860] ">Профиль</p>
+                    </router-link> <router-link to="">
+                        <p class="text-2xl ml-5 text-[#6F6860]">Настройки</p>
+                    </router-link>
+                </div>
             </div>
-            <div class="w-10 h-10 rounded-full bg-blue-600 mb-10">
+        </div>
 
-            </div>
-        </div>
     </header>
 </template>
-
-<script setup lang='ts'>
-</script>

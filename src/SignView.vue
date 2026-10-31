@@ -28,7 +28,6 @@
         </div>
         <div>
             <div class="flex h-screen w-full items-center justify-center ">
-
                 <form class=" w-100 h-80" action="">
                     <div>
                         <p class="text-4xl">Вход</p>
@@ -52,7 +51,7 @@
                         <button class="w-90  h-10 rounded-2xl bg-[#5C4C72]">Войти</button>
                     </div>
                     <div>
-                        <router-link to="/">
+                        <router-link to="/register">
                             <p class="text-[#A898C4] mt-2 ml-1">Нет аккаунта - регистрация</p>
                         </router-link>
                     </div>
