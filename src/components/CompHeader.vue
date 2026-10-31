@@ -23,7 +23,6 @@
                     </router-link>
                 </div>
             </div>
-
         </div>
         <div class=" flex  ml-90  ">
             <p class="  w-4 h-4 rounded-full bg-amber-300 mt-2"></p>
