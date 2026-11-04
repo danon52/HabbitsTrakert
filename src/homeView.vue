@@ -81,20 +81,73 @@
                 </div>
             </div>
         </div>
-        <div class="p-4">
+
+        <!-- испраить календарь  -->
+        <!-- <div class="p-4">
             <CalendarHeatmap :end-date="new Date()" :values="heatmapData" />
+        </div> -->
+    </div>
+    <!-- расчет коофицента выполненых  -->
+
+    <div class="flex">
+        <div class="w-[500px] h-[150px] bg-[#2F2B26] rounded-4xl ml-10">
+            <div class="px-4 py-3">
+                <p class="text-[#9C9488] text-xs">Ближайшие награды</p>
+            </div>
+            <div class="flex">
+                <div class="w-15 h-15 border rounded-full ml-5">
+                    <p class="p-4 ml-0.5">30</p>
+                </div>
+                <div>
+                    <p class="px-3 text-xl"> Месяц силы </p>
+                    <div>
+                        <p class="text-[#9C9488] px-3">осталось 18 дней </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[400px] h-3 border bg-[#2F2B26] rounded-3xl ml-6 mt-5 dark:bg-[##2F2B26]">
+                <div class="bg-[#7E9A84] h-2.5 rounded-3xl" style="width: 60%;"></div>
+            </div>
+        </div>
+        <div>
+            <div class="w-[500px] h-[150px]  bg-[#2F2B26] rounded-4xl ml-10">
+                <div class="px-4 py-3">
+                    <p class="text-[#9C9488] text-xs">Эта неделя </p>
+                </div>
+                <div class="grid grid-cols-3 gap-10">
+                    <div>
+                        <!-- сделать динамичным  -->
+                        <p class="text-3xl text-[#7E9A84] ml-15">86% </p>
+                        <div class="ml-15">
+                            <p class="text-[#9C9488] text-xs">Выполнено</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-3xl px-3">12</p>
+                        <div cla>
+                            <p class="text-xs text-[#9C9488]">дней серии </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-3xl px-3 text-[#C4A574]">2</p>
+                        <div>
+                            <p class="text-[#9C9488] text-xs">награды</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
 </template>
 
 <script setup lang='ts'>
-import { ref } from 'vue';
-import CompHeader from './components/CompHeader.vue';
-const heatmapData = ref([
-    { date: '2026-01-15', count: 5 },
-    { date: '2026-01-16', count: 12 },
-    { date: '2026-02-01', count: 2 },
-    { date: '2026-10-25', count: 20 },
-])
+// import { ref } from 'vue';
+// import CompHeader from './components/CompHeader.vue';
+// const heatmapData = ref([
+//     { date: '2026-01-15', count: 5 },
+//     { date: '2026-01-16', count: 12 },
+//     { date: '2026-02-01', count: 2 },
+//     { date: '2026-10-25', count: 20 },
+// ])
 </script>
