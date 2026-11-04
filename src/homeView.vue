@@ -381,15 +381,21 @@
         </div>
     </div>
 
+    <!-- календарь  -->
+    <div class="w-full">
+        <CalendarHeatmap :end-date="new Date()" :range-color="['#D5E3D8', '#8AAA92 ', '#5C7564', '#3E4A42']"
+            :values="heatmapData" tooltip-unit="чтение" />
+    </div>
 </template>
 
 <script setup lang='ts'>
-// import { ref } from 'vue';
-// import CompHeader from './components/CompHeader.vue';
-// const heatmapData = ref([
-//     { date: '2026-01-15', count: 5 },
-//     { date: '2026-01-16', count: 12 },
-//     { date: '2026-02-01', count: 2 },
-//     { date: '2026-10-25', count: 20 },
-// ])
+import { ref } from 'vue';
+import CompHeader from './components/CompHeader.vue';
+import { CalendarHeatmap } from 'vue3-calendar-heatmap'
+const heatmapData = ref([
+    { date: '2026-01-15', count: 10 },
+    { date: '2026-02-14', count: 10 },
+    { date: '2026-03-01', count: 2 },
+    { date: '2026-4-25', count: 20 },
+])
 </script>
