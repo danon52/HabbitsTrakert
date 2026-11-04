@@ -1,4 +1,5 @@
 
+import AddHabbit from '@/addHabbit.vue'
 import HomeView from '@/homeView.vue'
 import RegisterView from '@/registerView.vue'
 import SignView from '@/SignView.vue'
@@ -15,6 +16,9 @@ const router = createRouter({
     },
     {
       path: '/register', name: 'register', component: RegisterView
+    },
+    {
+      path: '/add', name: 'addHabbit', component: AddHabbit
     }
   ]
 })
