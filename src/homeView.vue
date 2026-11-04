@@ -152,6 +152,26 @@
             </div>
         </div>
     </div>
+    <!-- при выборе меняется цвет  -->
+    <div class="py-10 flex justify-between ">
+        <div>
+            <p class="text-xl">Привычки на сегодня </p>
+        </div>
+        <div class="flex mr-10">
+            <div class="w-20 h-10 bg-[#5C4C72] rounded-4xl mr-5">
+                <p class="text-xl py-1 px-5.5">Все</p>
+            </div>
+            <div class="w-20 h-10 border border-[#2F2B26] rounded-4xl">
+                <p class="text-xl py-1 px-4">Утро</p>
+            </div>
+            <div class="w-20 h-10 border border-[#2F2B26] rounded-4xl mr-5 ml-5 ">
+                <p class="text-xl py-1 px-4">День</p>
+            </div>
+            <div class="w-20 h-10 border border-[#2F2B26] rounded-4xl">
+                <p class="text-xl py-1 px-3">Вечер</p>
+            </div>
+        </div>
+    </div>
 
 </template>
 
