@@ -173,6 +173,214 @@
         </div>
     </div>
 
+
+
+    <!-- блок с задачами должен доставаться из бд -->
+    <!-- блок с задачами  -->
+    <div class="grid grid-cols-3 gap-4 ml-10">
+        <div class="w-100 h-40 bg-[#2F2B26] rounded-3xl ">
+            <div class="p-5 flex justify-between">
+                <div>
+                    <div class="w-10 h-10 rounded-2xl  bg-[#9A8FBF] ">
+                    </div>
+                    <div>
+                        <p class="text-xl">Зарядка</p>
+                    </div>
+                    <div class="py-2 flex ">
+                        <p class="text-xs text-[#9C9488]">Каждый день, </p>
+                        <div class=" ml-2">
+                            <p class="text-xs text-[#9C9488]">7:30 </p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#9A8FBF]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#9A8FBF]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#9A8FBF]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#9A8FBF]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#9A8FBF]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#9A8FBF]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#9A8FBF]">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <input type="checkbox" class="w-5 h-5 rounded-full">
+                </div>
+            </div>
+        </div>
+        <div class="w-100 h-40 bg-[#2F2B26] rounded-3xl ">
+            <div class="p-5 flex justify-between">
+                <div>
+                    <div class="w-10 h-10 rounded-2xl  bg-[#7EA4BE] ">
+                    </div>
+                    <div class="py-2  ">
+                        <p class="text-xl">Вода </p>
+                        <div class="py-1 ">
+                            <p class="text-xs text-[#9C9488]">5 из 8 стаканов</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#7EA4BE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#7EA4BE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#7EA4BE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#7EA4BE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#7EA4BE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#7EA4BE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5 bg-[#7EA4BE]">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <input type="checkbox" class="w-5 h-5 rounded-full">
+                </div>
+            </div>
+        </div>
+        <div class="w-100 h-40 bg-[#2F2B26] rounded-3xl ">
+            <div class="p-5 flex justify-between">
+                <div>
+                    <div class="w-10 h-10 rounded-2xl  bg-[#C6A56A] ">
+                    </div>
+                    <div class="py-2 ">
+                        <p class="text-xl">Чтение </p>
+                        <div class="py-1 ">
+                            <p class="text-xs text-[#9C9488]">30 минут, 21:00 </p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#C6A56A]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#C6A56A]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#C6A56A]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#C6A56A]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#C6A56A]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#C6A56A]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full  m-0.5 bg-[#C6A56A]">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <input type="checkbox" class="w-5 h-5 rounded-full">
+                </div>
+            </div>
+        </div>
+        <div class="w-100 h-40 bg-[#2F2B26] rounded-3xl ">
+            <div class="p-5 flex justify-between">
+                <div>
+                    <div class="w-10 h-10 rounded-2xl  bg-[#B7A8D4] ">
+                    </div>
+                    <div class="py-2 ">
+                        <p class="text-xl">Медетация </p>
+                        <div class="py-1 ">
+                            <p class="text-xs text-[#9C9488]">10 минут, 08:00 </p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#B7A8D4]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#B7A8D4]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#B7A8D4]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#B7A8D4]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#B7A8D4]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#B7A8D4]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full  m-0.5 bg-[#B7A8D4]">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <input type="checkbox" class="w-5 h-5 rounded-full">
+                </div>
+            </div>
+        </div>
+        <div class="w-100 h-40 bg-[#2F2B26] rounded-3xl ">
+            <div class="p-5 flex justify-between">
+                <div>
+                    <div class="w-10 h-10 rounded-2xl  bg-[#D4A3AE] ">
+                    </div>
+                    <div class="py-2 ">
+                        <p class="text-xl">Английский </p>
+                        <div class="py-1 ">
+                            <p class="text-xs text-[#9C9488]">Пн, Ср, Пт, 19:00</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D4A3AE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D4A3AE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D4A3AE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D4A3AE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D4A3AE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D4A3AE]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full  m-0.5 bg-[#D4A3AE]">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <input type="checkbox" class="w-5 h-5 rounded-full">
+                </div>
+            </div>
+        </div>
+        <div class="w-100 h-40 bg-[#2F2B26] rounded-3xl ">
+            <div class="p-5 flex justify-between">
+                <div>
+                    <div class="w-10 h-10 rounded-2xl  bg-[#D09A7E] ">
+                    </div>
+                    <div class="py-2 ">
+                        <p class="text-xl">Прогулка </p>
+                        <div class="py-1 ">
+                            <p class="text-xs text-[#9C9488]">Каждый день, 18:30 </p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D09A7E]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D09A7E]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D09A7E]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D09A7E]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D09A7E]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full m-0.5  bg-[#D09A7E]">
+                        </div>
+                        <div class="w-3 h-3 rounded-full  m-0.5 bg-[#D09A7E]">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <input type="checkbox" class="w-5 h-5 rounded-full">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </template>
 
 <script setup lang='ts'>
