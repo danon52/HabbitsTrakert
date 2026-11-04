@@ -95,8 +95,8 @@
                 <p class="text-[#9C9488] text-xs">Ближайшие награды</p>
             </div>
             <div class="flex">
-                <div class="w-15 h-15 border rounded-full ml-5">
-                    <p class="p-4 ml-0.5">30</p>
+                <div class="w-15 h-15 border-2 border-[#C4A574] rounded-full ml-4.5">
+                    <p class="p-4 ml-0.5 text-[#C4A574] font-bold ">30</p>
                 </div>
                 <div>
                     <p class="px-3 text-xl"> Месяц силы </p>
@@ -105,8 +105,8 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[400px] h-3 border bg-[#2F2B26] rounded-3xl ml-6 mt-5 dark:bg-[##2F2B26]">
-                <div class="bg-[#7E9A84] h-2.5 rounded-3xl" style="width: 60%;"></div>
+            <div class="w-[400px] h-3  bg-[#2F2B26] rounded-3xl ml-6 mt-5 dark:bg-[#211f1c]">
+                <div class="bg-[#7E9A84] h-3 rounded-3xl" style="width: 60%;"></div>
             </div>
         </div>
         <div>
@@ -134,6 +134,20 @@
                             <p class="text-[#9C9488] text-xs">награды</p>
                         </div>
                     </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <div class="w-[500px] h-[150px]  bg-[#241C16] rounded-4xl ml-10">
+                <div>
+                    <p class="text-[#9C9488] p-5 text-xs">Огоньки</p>
+                </div>
+                <div>
+                    <p class="text-4xl ml-5 text-[#C4A574]">240</p>
+                </div>
+                <div class="text-[#9C9488] text-end mr-10">
+                    <p>за сегодня +1</p>
                 </div>
             </div>
         </div>
