@@ -8,7 +8,7 @@
                 <div class="flex mt-1 ">
                     <router-link to="">
                         <p class="text-2xl ml-5 text-[#6F6860]">Сегодня</p>
-                    </router-link> <router-link to="">
+                    </router-link> <router-link to="/add">
                         <p class="text-2xl ml-5 text-[#6F6860]">Привычки</p>
                     </router-link> <router-link to="">
                         <p class="text-2xl ml-5 text-[#6F6860]">Статистика</p>
