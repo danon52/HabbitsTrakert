@@ -1,10 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router/index.js'
-import VueCalendarHeatmap from 'vue-calendar-heatmap'
-const app = createApp(App)
+import './main.css'
 
-app.use(router, VueCalendarHeatmap)
-
-
-app.mount('#app')
+createApp(App).use(router).mount('#app')
